@@ -4,7 +4,7 @@ fib1 = fib2 = 1
 n = int(input())
 spi = []
 spi.append(1)
-spi.append(2)
+spi.append(1)
 
 for i in range(2, n):
     fib1, fib2 = fib2, fib1 + fib2
@@ -16,4 +16,4 @@ spi2 = spi2.replace('[','')
 spi1 = spi1.replace('[','')
 spi2 = spi2.replace(']','')
 spi1 = spi1.replace(']','')
-print(f'-{spi2}, -1, 0, {spi1}')
+print(f'-{spi2}, 0, {spi1}')
